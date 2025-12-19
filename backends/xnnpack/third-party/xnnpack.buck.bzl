@@ -23,7 +23,7 @@ def define_xnnpack():
         ],
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         visibility = ["PUBLIC"],
         exported_deps = [
@@ -51,7 +51,7 @@ def define_xnnpack():
         ],
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
             "-DXNN_ENABLE_GEMM_M_SPECIALIZATION=0",
         ],
         exported_deps = [
@@ -75,7 +75,7 @@ def define_xnnpack():
         header_namespace = "",
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
             "-DXNN_ENABLE_SPARSE=0",
             "-DXNN_ENABLE_GEMM_M_SPECIALIZATION=0",
             "-DXNN_ENABLE_MEMOPT",
@@ -99,7 +99,7 @@ def define_xnnpack():
         ],
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -126,7 +126,7 @@ def define_xnnpack():
         ],
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -163,7 +163,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -205,7 +205,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -236,7 +236,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -266,7 +266,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -298,7 +298,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -328,7 +328,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -358,7 +358,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -388,7 +388,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -418,7 +418,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -451,7 +451,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -485,7 +485,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -515,7 +515,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -551,7 +551,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -596,7 +596,7 @@ def define_xnnpack():
         ],
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -625,7 +625,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -655,7 +655,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -687,7 +687,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -718,7 +718,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":interface",
@@ -755,7 +755,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -794,7 +794,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -831,7 +831,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -868,7 +868,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -908,7 +908,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -948,7 +948,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -985,7 +985,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -1023,7 +1023,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -1055,7 +1055,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -1090,7 +1090,7 @@ def define_xnnpack():
         }),
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
         ],
         exported_deps = [
             ":FP16",
@@ -1162,7 +1162,7 @@ def define_xnnpack():
         ],
         preferred_linkage = "static",
         preprocessor_flags = [
-            "-DXNN_LOG_LEVEL=0",
+            "-DXNN_LOG_LEVEL=5",
             "-DXNN_ENABLE_MEMOPT",
             "-DXNN_ENABLE_SPARSE=0",
             "-DXNN_ENABLE_ASSEMBLY",
